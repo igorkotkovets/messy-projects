@@ -32,6 +32,7 @@ class FailViewController: UIViewController {
                                         print("close contpletion in FailViewController")
         })
     }
+
     @IBAction func onShow3Alerts(_ sender: UIButton) {
         for i in 0...2 {
             self.errorService?.showAlert(with: "My Alert Title \(i)",
